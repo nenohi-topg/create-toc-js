@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+</head>
+
+<body>
+    <details id="tocDetails">
+        <summary id="tocSummary"><b>コンテンツ</b></summary>
+        <div  id="toc">
+            <!--
+            if TOC_INSERT_TAG_ID is "#toc", create_toc.js insert table of contents
+            -->
+        </div>
+    </details>
+    <!--
+    if TOC_HEADER_CLASS_NAME is ".tocHeader", create_toc.js 
+    -->
+    <h2 class="tocHeader">見出し1</h2>
+    <h3 class="tocHeader">見出し1の小見出し1</h3>
+    <h4 class="tocHeader">見出し1の小見出し1の小見出し1</h4>
+    <h3 class="tocHeader">見出し1の小見出し2</h3>
+    <h2 class="tocHeader">見出し2</h2>
+    <h4 class="tocHeader">見出し2の小見出し1</h4>
+    
+    <!--
+    Scripts should be run after the header you want in the table of contents.    
+    -->
+    <script src="../src/create_toc.js"></script>
+</body>
+
+</html>
